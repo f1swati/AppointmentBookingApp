@@ -1,0 +1,20 @@
+Steps to run the program:
+
+1. Import the application in to the Eclipse IDE or any IDE
+2. In the DatabaseConn.java module change the username and password. 
+   In my case username is root and password is root
+   
+   Below is the code snippet of DatabaseConn.java where you need to make the change. In place of root first give 
+   your MySQl username and than give password 
+   connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/pharmacy", "root",
+					"root"); 	
+ 	
+ 3. Run the MySQl Script in the MySQL server to create the database and to store the records
+ 4. After you set your environment. Run the application as Spring Boot Application.
+    Spring MVC application run the tomcat server. No need to do anything just right click on the application 
+ 	and run as a Spring Boot application.
+ 5. Open the google postman app and type the following URL for your test. 
+ 	Test the URL as GET method.
+ 	
+ 
+ 	
