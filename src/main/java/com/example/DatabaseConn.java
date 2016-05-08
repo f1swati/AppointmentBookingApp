@@ -39,8 +39,8 @@ public class DatabaseConn {
 
 		// Check for the connection
 		try {
-			connection = (Connection) DriverManager.getConnection("jdbc:mysql://usercmpe281nstance.ceeen7aldzyj.us-west-1.rds.amazonaws.com:3306/pharmacy", "admin123",
-					"Amit1234");
+			connection = (Connection) DriverManager.getConnection("jdbc:mysql://usercmpe281nstance.ceeen7aldzyj.us-west-1.rds.amazonaws.com:3306/dentist", "username",
+					"password");
 		} catch (SQLException e) {
 			System.out.println("Connection Failed!");
 			e.printStackTrace();
